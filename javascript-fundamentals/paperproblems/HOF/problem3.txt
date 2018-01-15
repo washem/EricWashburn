@@ -1,0 +1,11 @@
+What is the output of this program? Don't cheat by running it!
+
+function k(i, j) {
+    return 3 + 2 + 5 * 2; // returns 15
+}
+
+function f(h) {
+    return g(3,5);
+}
+
+console.log(f(k));

@@ -1,0 +1,37 @@
+What is the output of this program? Don't cheat by running it!
+
+function m(x) {
+    return x * 2;
+}
+
+function k(f, i, j) {
+    return f(i + 2) + j * 2;
+}
+
+function f(g, h) {
+    return g(h, 1, 4);
+}
+
+console.log(f(k, m));
+
+
+
+
+
+
+
+MY WORK:
+
+function m(3) {
+    return 3 * 2; = 6
+}
+
+function k(m, 1, 4) {
+    return m() + 4 * 2; = 14
+}
+
+function f(k, m) {
+    return k(m, 1, 4);
+}
+
+console.log(f(k, m));

@@ -1,0 +1,136 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+body{
+    margin: 0;
+    font-family: Helvetica;
+}
+.container  {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1120px;
+}
+
+.topper {
+    height: 8px;
+    width: 1120px;
+    background-color: rgb(3, 205, 3);
+}
+.header_background {
+    height: 40%;
+    min-height: 200px;
+    width: 1120px;
+    background-image: url("https://cdn0.vox-cdn.com/uploads/chorus_asset/file/3446676/cracked-iphone-stock-1197.0.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+}
+.header_logo    {
+    height: 80%;
+    min-width: 100px;
+    color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 5vw;
+    text-align: left; 
+}
+.logo_name  {
+    font-size: 25;
+    margin-bottom: 0;
+}
+.slogan {
+    margin-top: 10;
+    font-size: 20;
+    min-width:100px;
+}
+.our_products   {
+    height: 30%;
+    min-width: 250px;
+}
+.row{
+    text-align: center;
+    align-items: center;
+    margin: 20 auto;
+}
+.row1{
+    background-color: rgb(196, 195, 195);
+    align-items: center;
+    max-width: 1120px;
+    margin: 0;
+    display: flex; 
+    flex-wrap: wrap;
+    text-align: center;
+}
+.options{
+    margin-top: 30;
+}
+.options_desc{
+    color: grey;
+    margin-bottom: 30;
+}
+.email_text {
+    color: grey;
+    margin: 5%;
+    text-align: left;
+}
+form{
+    text-align: left;
+    margin: 5%;
+}
+.social {
+    margin: 0 auto;
+    height: 300px;
+    width: 100%;
+    text-align:center;
+}
+.faces  {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width: 600px;
+    height: 40px;
+}
+.trump  {
+    margin-left: 1px;
+    margin-right: 1px;
+}
+.links  {
+    height: 50px;
+    width: 50px;
+    margin-bottom:40px;
+    display: inline-block;
+}
+.centering{
+    color: gray;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top:45px;
+}
+iframe  {
+    margin: 5%;
+}
+.row2{
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: auto;
+    display: flex; 
+    flex-wrap: wrap;
+    text-align: center;
+}
+.bottom_buttons    {
+    color: grey;
+}
+.bottom_background{
+    background-color: rgb(196, 195, 195);
+    width: 1120px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+  
+
